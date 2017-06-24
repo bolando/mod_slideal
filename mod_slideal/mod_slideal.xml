@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.3.0" client="site" method="upgrade">
+	<name>mod_slideal</name>
+	<author>albertas</author>
+	<creationDate>May 2014</creationDate>
+	<copyright>Copyright (C) 2005 - 2012 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>a.kowalski@resolutio.pl</authorEmail>
+	<authorUrl>albertas.com.pl</authorUrl>
+	<version>1.0</version>
+	<description>Slider </description>
+	<files>
+		<filename module="mod_slideal">mod_slideal.php</filename>
+		<folder>tmpl</folder>
+		<folder>js</folder>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+		<filename>mod_slideal.xml</filename>
+		<folder>css</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="moduleclass_sfx" type="text"  default="" label="Module Class Suffix" description="" />
+				<field name="slidewidth" type="text"  default="700" label="Szerokość pokazu" description="Wprowadź szerokość pokazu. Sprawdź rozmiar slajdów tak aby miały ten sam rozmiar" />
+				<field name="slideheight" type="text"  default="180" label="Wysokość pokazu" description="Wprowadź szerokość pokazu. Sprawdź rozmiar slajdów tak aby miały ten sam rozmiar" />
+				<field name="timeinterval" type="text"  default="5000" label="Przerwa w milisekundach" description="Przerwa pomiędzy kolejnymi slajdami w milisekundach - 1 sekunda to 1000 milisekund" />
+				<field name="direction" type="list"  default="L" label="Kierunek animacji" description="Kierunek animacji">
+					<option value="L">W lewo</option>
+					<option value="R">W prawo</option>
+					<option value="T">W górę</option>
+					<option value="B">W dół</option>
+					<option value="D">Losowy</option>
+				</field>
+				<field name="speed" type="radio"  default="F" label="Szybkość animacji" description="Szybkość animacji">
+					<option value="F">Szybko</option>
+					<option value="S">Wolno</option>
+				</field>
+				<field name="jqison" type="list" default="N" label="Włączenie jQuery" description="Włączenie biblioteki jQuery jest istotne w przypadku innego włączenia jej innej wersji. Ponowne włączenie może spowodować nieprzewidziane skutki">
+					<option value="N">Wyłączony</option>
+					<option value="T">Włączony</option>
+				</field>
+
+				<field name="img01" type="text" size="60" default="" label="Ścieżka slajdu 1" description="Obraz slajdu 1 - ścieżka" />
+				<field name="img02" type="text" size="60" default="" label="Ścieżka slajdu 2" description="Obraz slajdu 2 - ścieżka" />
+				<field name="img03" type="text" size="60" default="" label="Ścieżka slajdu 3" description="Obraz slajdu 3 - ścieżka" />
+				<field name="img04" type="text" size="60" default="" label="Ścieżka slajdu 4" description="Obraz slajdu 4 - ścieżka" />
+				<field name="img05" type="text" size="60" default="" label="Ścieżka slajdu 5" description="Obraz slajdu 5 - ścieżka" />
+				<field name="img06" type="text" size="60" default="" label="Ścieżka slajdu 6" description="Obraz slajdu 6 - ścieżka" />
+				<field name="img07" type="text" size="60" default="" label="Ścieżka slajdu 7" description="Obraz slajdu 7 - ścieżka" />
+				<field name="img08" type="text" size="60" default="" label="Ścieżka slajdu 8" description="Obraz slajdu 8 - ścieżka" />
+				<field name="img09" type="text" size="60" default="" label="Ścieżka slajdu 9" description="Obraz slajdu 9 - ścieżka" />
+				<field name="img10" type="text" size="60" default="" label="Ścieżka slajdu 10" description="Obraz slajdu 10 - ścieżka" />
+				<field name="img11" type="text" size="60" default="" label="Ścieżka slajdu 11" description="Obraz slajdu 11 - ścieżka" />
+				<field name="img12" type="text" size="60" default="" label="Ścieżka slajdu 12" description="Obraz slajdu 12 - ścieżka" />
+				<field name="img13" type="text" size="60" default="" label="Ścieżka slajdu 13" description="Obraz slajdu 13 - ścieżka" />
+				<field name="img14" type="text" size="60" default="" label="Ścieżka slajdu 14" description="Obraz slajdu 14 - ścieżka" />
+				<field name="img15" type="text" size="60" default="" label="Ścieżka slajdu 15" description="Obraz slajdu 15 - ścieżka" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

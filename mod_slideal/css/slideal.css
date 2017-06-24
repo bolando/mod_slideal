@@ -1,0 +1,15 @@
+.slidealMainContainer {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	position: relative;
+	border-radius: 4px;
+}
+
+.slidealImg {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	position: absolute;
+}
